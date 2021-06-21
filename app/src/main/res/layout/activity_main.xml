@@ -340,6 +340,7 @@
         android:text="Mulai Skrining"
         android:textAllCaps="false"
         android:textSize="14dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">

@@ -1,16 +1,13 @@
 package com.pneumonia.detection;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.airbnb.lottie.LottieAnimationView;
-import com.airbnb.lottie.LottieDrawable;
 
 public class ResultActivity extends AppCompatActivity {
 
@@ -44,21 +41,17 @@ public class ResultActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ResultActivity.this, DataActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(ResultActivity.this, QuestActivity.class);
+//                startActivity(intent);
+//                finish();
                 finish();
             }
         });
     }
 
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(ResultActivity.this, DataActivity.class);
-        startActivity(intent);
-    }
-
 //    @Override
-//    protected void onDestroy() {
-//        super.onDestroy();
+//    public void onBackPressed() {
+//        Intent intent = new Intent(ResultActivity.this, DataActivity.class);
+//        startActivity(intent);
 //    }
 }
